@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+</head>
+<body>
+<main>
+    <h1>Prove que odeia Genshin Impact</h1> 
+    <form action="https://discord.gg/ZsvYNQ3y" method="GET">
+
+        <fieldset>
+            <legend>Conta:</legend>
+
+            <div>
+                <label>Email:</label>
+                <input type="email" name="email" required minlength="8" maxlength="250" />
+            </div>
+    
+            <div>
+                <label>Senha:</label>
+                <input type="password" name="senha" required minlength="6" />
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados pessoais:</legend>
+
+            <div>
+                <label>Nome:</label>
+                <input type="text" placeholder="Ex:Ronaldo" name="naome" required />
+            </div>
+
+            <div>
+                <label>Telefone:</label>
+                <input type="text" placeholder="Ex:(22) 99999-9999" name="telefone" required />
+            </div>
+
+            <div>
+                <label>Sexo:</label>
+                <input type="radio" value="Masculino" name="sexo" checked />
+                <label>Masculino</label>
+                <input type="radio" value="Feminino" name="sexo"  />
+                <label>Feminino</label>
+            </div>
+
+            <div>
+                <label>Data de nascimento:</label>
+                <input type="date" name="data_de_nascimento" required />
+            </div>
+            <div>
+                <label>Foto:</label>
+                <input type="file" accept="image/*" name="foto" />
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Endereço:</legend>
+
+            <div>
+                <label>Rua:</label>
+                <input type="text" name="rua" required />
+            </div>
+    
+            <div>
+                <label>Complemento:</label>
+                <input type="text" name="complemento" />
+            </div>
+    
+            <div>
+                <label>Numero:</label>
+                <input type="number" min="1" max="9999" name="numero" required />
+            </div>
+    
+            <div>
+                <label>Cidade:</label>
+                <input type="text" name="cidade" required />
+            </div>
+    
+            <div>
+                <label>Estado:</label>
+                <select name="Estado" required>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="EX">Estrangeiro</option>
+                </select>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Anúncio:</legend>
+
+            <div>
+                <label>Por que você odeia Genshin Impact?</label>
+                <textarea maxlength="250" placeholder="Digite aqui..." name="Opiniao_genshin"></textarea>
+            </div>
+    
+            <div>
+                <label>Você confirma que odeia Genshin Impact?</label>
+                <input type="checkbox" checked name="Hate_genshin" />
+            </div>
+        </fieldset>
+
+        <input id="button" type="submit" value="Enviar" />
+        <label for="button"></label>
+
+    </form>
+    <p class="word">Meu Github <a href ="https://github.com/Inobushi2" target="_blank"><i class="fab fa-github-square"></i></a> </p>
+</main>
+
+<footer>
+     
+    <p class="copy" >Copyright <copy1>&#169</copy1> 2022 by Shinobu</p> 
+</footer>
+</body>
+</html>
